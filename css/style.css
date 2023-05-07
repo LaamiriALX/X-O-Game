@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    height: 100vh;
+
+}
+.turn{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 50%;
+    margin: auto;
+}
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 200px;
+    width: 180px;
+    height: 100px;
+    color: aliceblue;
+    font-size: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+}
